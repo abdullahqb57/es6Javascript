@@ -1,4 +1,4 @@
-var myPromise = new Promise(function(resolve, rejet){
+var myPromise = new Promise(function(resolve, reject){
     setTimeout(()=> resolve(4),2000);
 })
 myPromise.then((res) => {
